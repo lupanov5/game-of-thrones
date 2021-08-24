@@ -84,7 +84,8 @@ export default class GotService {
             name: this.isSet(book.name),
             numberOfPages: this.isSet(book.numberOfPages),
             publisher: this.isSet(book.publisher),
-            released: this.isSet(book.released)
+            released: this.isSet(book.released),
+            country: this.isSet(book.country)
         };
     }
 }
